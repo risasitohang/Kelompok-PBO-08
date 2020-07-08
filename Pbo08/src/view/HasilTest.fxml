@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="controller.HasilTestController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="374.0" layoutX="13.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="578.0" />
+      <Label fx:id="hasil" layoutX="208.0" layoutY="214.0" prefHeight="89.0" prefWidth="200.0" text="Resiko Sedang" textFill="RED">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Ellipse fx:id="lingkaran" fill="#eb2b2b" layoutX="300.0" layoutY="134.0" radiusX="80.0" radiusY="80.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="kembali" layoutX="193.0" layoutY="298.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="215.0" style="-fx-background-color: #16c528;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Semibold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

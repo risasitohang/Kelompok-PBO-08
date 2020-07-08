@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 8, 2020 8:52:39 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="mapping.Hasil" table="HASIL" schema="INFORMATION_SCHEMA" catalog="PBO08" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="nama" type="string">
+            <column name="NAMA" />
+        </property>
+        <property name="hasil" type="string">
+            <column name="HASIL" />
+        </property>
+    </class>
+</hibernate-mapping>
